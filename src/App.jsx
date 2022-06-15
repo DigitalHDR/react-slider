@@ -1,10 +1,12 @@
 import React from 'react'
-import { SliderTeste } from './components/SliderTeste'
+import { ImageSlider } from './components/ImageSlider'
+import SliderData from './components/SliderData'
+import './App.css'
 
 function App() {
   return (
     <div>
-      <SliderTeste />
+      <ImageSlider slides={SliderData.allImagens} />
     </div>
   )
 }
